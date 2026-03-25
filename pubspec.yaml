@@ -1,0 +1,29 @@
+name: getx_mvc_app
+description: "A Flutter project using MVC architecture with GetX."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.9
+
+  # State Management, DI & Navigation
+  get: ^4.7.3
+
+  # Networking
+  dio: ^5.9.2
+
+  # Local Storage
+  get_storage: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
